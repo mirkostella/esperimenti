@@ -1,6 +1,5 @@
 # esperimenti
 bla bla modifica senza cancellare il contenuto precedente
-nuova modifica dopo aver risolto la pull request con il main
-altra modifica per avanzare di commit
-//ho tenuto solo le modifiche ldel secondo branch ed eliminato quelle che avevo fatto nel main
+nuova modimodificcato nel branch 2
+
 
