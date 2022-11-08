@@ -1,1 +1,1 @@
-commit con descrizione da bash associazione issue
+commit con descrizione da bash associazione issuearegrgrgergarg
