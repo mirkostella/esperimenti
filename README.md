@@ -1,4 +1,3 @@
-
-commit con descrizione da bash associazione issue cambiamento in locale
+secn bash associazione issue cambiamento in locale
 commit che non richiede il merge
 
