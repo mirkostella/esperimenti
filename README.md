@@ -1,2 +1,2 @@
-ho modificato per poi tornare indietro con i commit altra modifica ancora altra modifica
+se faccio revert vengono controllati i conflitti con il commit a cui voglio tornare e quello in cui mi trovo
 
