@@ -4,6 +4,8 @@ on: [push]
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
+      env:
+      STRINGA_DECISA: sono la stringa
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -12,5 +14,3 @@ jobs:
       - run: npm install -g bats
       - run: bats -v
       - run: echo "$STRINGA_DECISA"
-      env:
-      STRINGA_DECISA: sono la stringa
