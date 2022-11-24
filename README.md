@@ -1,2 +1,3 @@
-read di nuovo
-per fetch ddddddddd
+
+per fetch dddddddddsss
+
