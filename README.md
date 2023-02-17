@@ -1,1 +1,1 @@
-risolti i conflitti in locale
+nuovo testo
