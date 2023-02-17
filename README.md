@@ -1,1 +1,1 @@
-modifica sul branch da eliminare dopo il merge
+creazione conflitto con il merge da eliminare
