@@ -1,1 +1,1 @@
-modifica locale di prova
+risolti i conflitti in locale
