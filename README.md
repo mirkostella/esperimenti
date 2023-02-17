@@ -1,8 +1,7 @@
 
 
 
-ciao come stai male
+ciao come stai bene bene tenuto main
 
-ciao come stai bene bene
 
 
