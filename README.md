@@ -1,1 +1,1 @@
-copia2 prima modifica
+risolto con copia2
