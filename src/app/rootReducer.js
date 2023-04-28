@@ -1,8 +1,11 @@
 import { combineReducers } from '@reduxjs/toolkit';
-import cartSlice from '../features/carrello/cartSlice';
+import cartSlice from '../features/cart/cartSlice';
+import productSlice from '../features/products/productsSlice';
 
 const rootReducer = combineReducers({
-	carrello: cartSlice
+	cart: cartSlice,
+	products: productSlice
+
 })
 
 export default rootReducer;

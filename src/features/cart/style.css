@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.textmargin{
+    margin-top:0.5em;
+}
+html,body{
+    height: 100%;
+}
+#root{
+    width: 100%;
+    height: 100%;   
+}
+.cartItem{
+    margin:1em 1em 0em 1em;
+    border: 3px solid blue;
+    list-style-type: none;
+}
+#cart button{
+    width: 33.3%;
+    height: 4em;
+    margin: 1em 1em;
+}
+#cart #svuotaCarr{
+    width: 50%;
+    height: 4em;
+    margin: 1em 1em;
+}
+#cart .cartItem button{
+    width: 33.3%;
+    height: 2em;
+}
+#cart{
+    text-align: center;
+    width: 30%;
+    position: relative;
+    top:10%;
+    background-color: yellow;
+    margin: auto;
+}
+#oggettiPresenti{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#cartItem{
+    display: flex;
+    flex-direction: column;
+}
+ul li:last-child{
+    margin:1em;
+}
