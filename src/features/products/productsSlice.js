@@ -14,14 +14,14 @@ const initialState={
         basePrice: 1,
         category:"polvere",
         selectedColor:"red",
-        variants:["red"]
+        variantsColor:["red","yellow"]
         },
         {
         id:2,name:"patatine",
         basePrice: 3,
         category:"snak",
         selectedColor:"blue",
-        variants:["blue","green"]
+        variantsColor:["blue","green"]
         },
         {   
         id:3,
@@ -29,7 +29,7 @@ const initialState={
         basePrice: 5,
         category:"consumo",
         selectedColor:"blue",
-        variants:["blue"]
+        variantsColor:["blue","yellow","grey","pink"]
         }
     ],
     cartProducts:[],

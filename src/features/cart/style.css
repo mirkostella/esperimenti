@@ -53,3 +53,6 @@ html,body{
 ul li:last-child{
     margin:1em;
 }
+.colorSelected{
+    background-color: aqua;
+}

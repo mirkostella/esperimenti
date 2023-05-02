@@ -12,10 +12,12 @@ export const Cart=()=>{
     const allCartItems=useSelector(selectorCartItems);
     const listCartItems=[];
     const detailsCartItems=[];
-//lista di tutti i prodotti disponibili
+//lista di tutti i prodotti disponibili: serve a creare i pulsanti per aggiungere un oggetto al carrello fornendo all'item l'id e il prezzo dell' oggetto
     const listLProducts= allProducts.map((item)=> <button key={item.id} onClick={()=>dispatch(addItem({id:item.id,basePrice: item.basePrice}))}>
         {item.name}</button>);
-        
+      
+
+//fornisce i dettagli completi di tutti gli oggetti presenti nel carrello: serve a creare l'il cartItem
     const getDetailsCartItems=(item)=>{
         let detailsItem=allProducts.find((product)=>product.id==item.id);
         if(typeof detailsItem !== "undefined"){
@@ -31,9 +33,9 @@ export const Cart=()=>{
              id={item.id} 
              quantity={quantityItem} 
              name={item.name} 
-             price={item.basePrice}
-             color={item.selectedColor}
-             colors={item.variantsColor} />); 
+             basePrice={item.basePrice}
+             selectedColor={item.selectedColor}
+             variantsColor={item.variantsColor} />); 
     });
     //ricavo il costo totale del carrello
     const totalCost= useSelector(selectorTotalCost);
