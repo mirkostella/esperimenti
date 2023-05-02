@@ -27,7 +27,13 @@ export const Cart=()=>{
     //per ogni elemento presente all'interno del carrello creo il componente react
     detailsCartItems.map((item,index)=>{ 
         const quantityItem=allCartItems.find((cartItem)=>cartItem.id==item.id).quantity;
-        listCartItems.push(<CartItem key={index} id={item.id} quantity={quantityItem} name={item.name} price={item.basePrice} />);
+        listCartItems.push(<CartItem key={index}
+             id={item.id} 
+             quantity={quantityItem} 
+             name={item.name} 
+             price={item.basePrice}
+             color={item.selectedColor}
+             colors={item.variantsColor} />); 
     });
     //ricavo il costo totale del carrello
     const totalCost= useSelector(selectorTotalCost);
